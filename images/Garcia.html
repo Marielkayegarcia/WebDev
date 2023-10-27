@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0597762470.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <image src="pictures/logo.png" class="logo">
+            <ul> 
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>Mariel</span><br>Kaye from Philippines </h1>
+        </div>
+    </div> 
+</div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pictures/third.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p>Hi My name Is Mariel Kaye Garcia. I am 21 years old from Quezon City
+                        I am currently Third Year College Student at PUP Quezon City Branch.
+                        Feel free to explore my portfolio to get to know more about me</p>
+                
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('accomplishments')">Accomplishments</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Singing</span><br>I have a talent on singing. I have been singing since  I was a kid and have been champion to some of contests.</li>
+                            <li><span>Poetry/Essay making</span><br>I accept commissions by doing schoolworks like thesis, essays, and poets.</li>
+                            <li><span>I.T Student</span><br> Being an I.T student I was able to learn how to do codings and some development like this.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="accomplishments">
+                        <ul>
+                            <li><span>Working student</span><br>Service Crew at Dunkin' Donuts for 1 year and 5months.</li>
+                            <li><span>Academic Accomplishments</span><br>Graduated with Salutatorian mark when I was in Elementary.<br> High Honor when I was in Senior High School. </li>
+                            <li><span>Worship Leader</span><br>Because of my voice and faith I have been the prayer works leader in our church.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Elementary</span><br>Tabon Elementary School</li>
+                            <li><span>Junir High School</span><br>San Francisco High Chool</li>
+                            <li><span>Senior High School</span><br>General De Jesus College</li>
+                            <li><span>College</span><br>Polythecnic University of the Philippines</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------services------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>Paintings</h2>
+                    <p> I am seling my artworks with just friendly price</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Live</h2>
+                    <p>Using my social media platform I tend to post videos of me singing.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-book"></i>
+                    <h2>Commission</h2>
+                    <p>I do acept schoolworks or activity exchange of money.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                
+                
+
+            </div>
+        </div>
+    </div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="pictures/work3.jpg">
+                <div class="layer">
+                    <h3>Live</h3>
+                    <p> I am singing in my other Social Media Platform..</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="pictures/work1.jpg">
+                <div class="layer">
+                    <h3>Painting</h3>
+                    <p> This painting is my second sold painting</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+                
+                    
+            </div>
+            <div class="work">
+                <img src="pictures/work2.jpg">
+                <div class="layer">
+                    <h3>Painting</h3>
+                    <p> This is my first ever sold painting.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    
+
+                </div>
+            </div>
+            
+            </div>
+        </div>
+    </div>
+<!-- --------contact--------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>marielgarcia1902@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>09353343442</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-threads"></i></a>
+                    <a href=""><i class="fa-brands fa-google"></i></a>
+                </div>
+                
+            </div>
+            <div class="contact-right"> 
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>   
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+                    
+
+
+</body>
+</body>
+</html>
